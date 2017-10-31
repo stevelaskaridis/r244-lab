@@ -69,6 +69,5 @@ import matplotlib.pyplot as plt
 predictions2 = session.run(predictions, {X: xs}) #TODO, run the prediction operation
 plt.plot(xs, predictions2)
 plt.plot(xs, ys)
-#plt.show()
-
+plt.show()
 
